@@ -1,3 +1,6 @@
 node_modules/
-platforms/
-plugins/
+platforms/android/
+platforms/ios/
+platforms/browser/
+plugins/cordova-plugin**
+plugins/phonegap-plugin**
