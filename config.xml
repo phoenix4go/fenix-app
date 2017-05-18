@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.fenix.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.phoenix4go.fenix" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Fenix</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Fenix GO!
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="phoenix4go@gmail.com" href="http://phoenix4go.com">
+        Phoenix4GO Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -19,12 +19,13 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="ldpi" src="www/img/fenix_only_logo.png" />
-        <preference name="StatusBarBackgroundColor" value="#b71c1c" />
+        <preference name="StatusBarBackgroundColor" value="#b71c1c" />		
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
-        <icon density="ldpi" src="www/img/fenix_only_logo.png" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <engine name="browser" spec="~4.1.0" />
+    <engine name="android" spec="~6.1.2" />
     <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
 </widget>
