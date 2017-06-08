@@ -3,7 +3,7 @@
  */
 var fenix = angular.module('fenix', ['ngRoute']);  
 
-var SERVER_APP = 'http://172.16.1.163:9001/fenix';
+var SERVER_APP = '/fenix';
   
 fenix.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   	  $locationProvider.hashPrefix('');
